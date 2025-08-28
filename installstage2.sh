@@ -1,5 +1,5 @@
 #!/bin/bash
-source /tmp/aerios-config.env
+source /tmp/install-config.env
 
 DEBIAN_FRONTEND=noninteractive
 
@@ -59,7 +59,7 @@ rm -rf /etc/lightdm/lightdm-gtk-greeter.conf
 touch /etc/lightdm/slick-greeter.conf
 cat > /etc/lightdm/slick-greeter.conf << IMRUNNINGOUTOFSHIT
 [greeter]
-background=/aerios/resources/background.png
+
 IMRUNNINGOUTOFSHIT
 
 if [ "$firmware" == "uefi" ]; then

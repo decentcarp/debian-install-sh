@@ -24,6 +24,5 @@ genfstab -U /mnt >> /mnt/etc/fstab
 mkdir /mnt/tmp
 cp /tmp/installstage2.sh /mnt/tmp/
 cp /tmp/install-config.env /mnt/tmp/
-mkdir /mnt/aerios/
 
 chroot /mnt /tmp/installstage2.sh

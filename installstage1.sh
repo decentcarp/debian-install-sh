@@ -1,6 +1,7 @@
 #!/bin/bash
 source /tmp/install-config.env
 
+mkfs.ext4 /dev/$rootpart
 mount /dev/$rootpart /mnt
 
 debootstrap --arch amd64 stable /mnt https://deb.debian.org/debian 

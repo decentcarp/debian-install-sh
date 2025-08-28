@@ -1,4 +1,8 @@
-*Something silly I made. I know nobody will use this.*
+**Something silly I made. I know nobody will use this except me.**
+
+**To be added in future:**
+
+*- Automatic partitioning*
 
 ## To use:
 

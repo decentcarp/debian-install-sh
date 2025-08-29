@@ -17,15 +17,10 @@
 
 *Values:*
 
-username = Your desired username 
-
-password = Your desired password
-
-hostname = Your desired hostname
-
-rootpart = Your root partition (e.g insert 'sda2' if your root partition is /dev/sda2)
-
-bootefipart = Either your boot partition, or EFI System Partition. (e.g 'sda1' if your boot or EFI partition is /dev/sda1)
-
-disk = Disk name. (e.g 'sda' if your disk is /dev/sda)
+- username = Your desired username 
+- password = Your desired password
+- hostname = Your desired hostname
+- rootpart = Your root partition (e.g insert 'sda2' if your root partition is /dev/sda2)
+- bootefipart = Either your boot partition, or EFI System Partition. (e.g 'sda1' if your boot or EFI partition is /dev/sda1)
+- disk = Disk name. (e.g 'sda' if your disk is /dev/sda)
 
